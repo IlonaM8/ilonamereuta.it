@@ -2,6 +2,7 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 
 /*
 	Stellar by HTML5 UP
@@ -2473,17 +2474,20 @@ input[type="radio"]:focus + label:before {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Image */
+/* Image
+border-radius: 8px;
+*/
 
 .image {
-  border-radius: 8px;
+  border: none;
   border: 0;
   display: inline-block;
   position: relative;
 }
 
+/* border-radius: 8px; */
 .image img {
-  border-radius: 8px;
+  border: none;
   display: block;
 }
 
@@ -3763,6 +3767,17 @@ body.is-preload #header.alt .logo {
     margin: -3em 0 1.5em -1.5em;
     width: calc(100% + 3em);
   }
+}
+
+/*icon - about */
+#about .fas.fa-plus {
+  color: #593b94;
+  font-size: small;
+}
+
+/*hand writting effect*/
+#about .hand-writting {
+  font-family: "Handlee", cursive;
 }
 
 @media screen and (max-width: 360px) {
