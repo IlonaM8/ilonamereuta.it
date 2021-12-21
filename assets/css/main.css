@@ -3770,14 +3770,39 @@ body.is-preload #header.alt .logo {
 }
 
 /*icon - about */
-#about .fas.fa-plus {
+#home .fas.fa-plus {
   color: #593b94;
   font-size: small;
 }
 
 /*hand writting effect*/
-#about .hand-writting {
-  font-family: "Handlee", cursive;
+#home .hand-writting {
+  font-family: "Handlee", cursive !important;
+}
+
+/*my skills icon*/
+#skills .fas.fa-laptop {
+  color: #9b73ec;
+  font-size: 25px;
+}
+
+#skills .fas.fa-bullhorn,
+.fas.fa-search-location,
+.fas.fa-hat-wizard,
+.fas.fa-paragraph,
+.fab.fa-wordpress,
+.fab.fa-html5,
+.fab.fa-css3-alt,
+.fab.fa-github,
+.fab.fa-js-square,
+.fab.fa-python {
+  color: #9b73ec;
+  font-size: 2em;
+  padding: 0.8em;
+}
+
+#contact .fas.fa-envelope {
+  color: #9b73ec;
 }
 
 @media screen and (max-width: 360px) {
