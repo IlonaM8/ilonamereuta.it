@@ -3915,3 +3915,7 @@ body.is-preload #header.alt .logo {
     max-width: 100%;
   }
 }
+
+.logo-footer {
+  align-self: center;
+}
