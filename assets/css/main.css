@@ -3235,7 +3235,7 @@ table.alt tbody tr td {
   display: block;
   margin: 0 auto;
   /*max-width: 75%;*/
-  width: 20%;
+  width: 25%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3778,6 +3778,7 @@ body.is-preload #header.alt .logo {
   font-size: small;
 }
 
+
 /*hand writting effect*/
 #home .hand-writting {
   font-family: "Handlee", cursive !important;
@@ -3798,7 +3799,8 @@ body.is-preload #header.alt .logo {
 .fab.fa-css3-alt,
 .fab.fa-github,
 .fab.fa-js-square,
-.fab.fa-python {
+.fab.fa-python, 
+.fab.fa-git-alt {
   color: #9b73ec;
   font-size: 2em;
   padding: 0.8em;
