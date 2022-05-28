@@ -3235,7 +3235,7 @@ table.alt tbody tr td {
   display: block;
   margin: 0 auto;
   /*max-width: 75%;*/
-  width: 25%;
+  width: 20%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3925,3 +3925,6 @@ body.is-preload #header.alt .logo {
 
 /**/
 
+.fontText {
+  font-family: "Anonymous Pro", monospace;
+}
