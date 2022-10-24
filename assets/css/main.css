@@ -201,15 +201,15 @@ html {
   */
 
 body {
-  background-color: #b692ff;
+  background-color: #8AE28C;
   background-image: url("images/overlay.png"),
-    -moz-linear-gradient(45deg, #b692ff 15%, #593b94 85%);
+    -moz-linear-gradient(45deg, #8AE28C 15%, #8AE28C 85%);
   background-image: url("images/overlay.png"),
-    -webkit-linear-gradient(45deg, #b692ff 15%, #593b94 85%);
+    -webkit-linear-gradient(45deg, #8AE28C 15%, #8AE28C 85%);
   background-image: url("images/overlay.png"),
-    -ms-linear-gradient(45deg, #b692ff 15%, #593b94 85%);
+    -ms-linear-gradient(45deg, #8AE28C 15%, #8AE28C 85%);
   background-image: url("images/overlay.png"),
-    linear-gradient(45deg,   15%, #593b94 85%);
+    linear-gradient(45deg,   15%, #8AE28C  85%);
 }
 
 body.is-preload *,
